@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<h2 class="center">Tablero Dinosaurios</h2>
+
+<div class="tablero">
+  <!-- FILA 1 -->
+  <div class="celda bosque"><button onclick="selectUno()" class="btn-tamaño bosque-color btn-opcion"></button></div>
+  <div class="celda rio"><button onclick="selectDos()" class="btn-tamaño rio-color btn-opcion"></button></div>
+  <div class="celda bosque"><button onclick="selectTres()" class="btn-tamaño bosque-color btn-opcion"></button></button></div>
+
+  <!-- FILA 2 -->
+  <div class="celda bosque"><button onclick="selectCuatro()" class="btn-tamaño bosque-color btn-opcion"></button></button></div>
+  <div class="celda roca"><button onclick="selectCinco()" class="btn-tamaño roca-color btn-opcion"></button></button></div>
+
+  <!-- FILA 3 -->
+  <div class="celda roca"><button onclick="selectSeis()" class="btn-tamaño roca-color btn-opcion"></button></button></div>
+  <div class="celda roca"><button onclick="selectSiete()" class="btn-tamaño roca-color btn-opcion"></button></button></div>
+
+  <!-- FILA 4 - DEPÓSITO -->
+  <div class="celda deposito"> 
+    <div class="dinosaurios-iconos">
+      <button onclick="slctRojo()" class="no-border" ><img src="imgs/minis/Rojo 2.png" alt="" class="icono" id="ico-rojo"></button>
+      <button onclick="slctCyan()" class="no-border"><img src="imgs/minis/Cyan.png" alt="" class="icono" id="ico-cyan"></button>
+      <button onclick="slctNaranja()" class="no-border"><img src="imgs/minis/Naranja 2.png" alt="" class="icono" id="ico-naranja"></button>
+      <button onclick="slctRosa()" class="no-border"><img src="imgs/minis/Rosa.png" alt="" class="icono" id="ico-rosa"></button>
+      <button onclick="slctVerde()" class="no-border"><img src="imgs/minis/Verde.png" alt="" class="icono" id="ico-verde"></button>
+      <button onclick="slctAzul()" class="no-border"><img src="imgs/minis/Azul.png" alt="" class="icono" id="ico-azul"></button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
